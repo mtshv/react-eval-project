@@ -2,4 +2,27 @@
   background-color: #222;
   color: #fff;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: #fff
+  }
+}
+
+.button {
+  padding: 10px;
+  border-radius: 0;
+  background: transparent;
+  color: #03a9f4;
+  border: 1px solid #03a9f4;
+  cursor: pointer;
+  &:disabled {
+    color: buttontext;
+    font-weight: bold;
+    background-color: #03a9f4;
+    border: 1px solid #03a9f4;
+    cursor: default;
+  }
 }
